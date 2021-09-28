@@ -10,7 +10,7 @@
 
     &.scrolled{
         background-color: var(--main-color);
-        transition:all 0.5s ease-out; //NEW
+        transition:all 0.5s ease-in ease-out; //NEW
     }
     .container{
         padding: 0px 50px;
